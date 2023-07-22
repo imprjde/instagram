@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
-import "./Home.css";
 import Modal from "./Modal";
+import "./Home.css";
 const Home = () => {
   const [showModal, setShowModal] = useState(false);
   useEffect(() => {
