@@ -1,0 +1,67 @@
+.rtx1 {
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.5);
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 99;
+  }
+  .rtx2 {
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    background-color: white;
+    box-shadow: 0px 0px 0px #888;
+    padding: 10px;
+    border-radius: 10px;
+    height: 200px;
+    width: 500px;
+    justify-content: center;
+    align-items: center;
+  }
+  .rtx7 {
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    height: 1px;
+    width: 100%;
+    border-bottom: 1px dotted #737373;
+  }
+  
+  .rtx5 {
+    text-align: center;
+    color: #737373;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+  }
+  .rtx6 {
+    font-weight: 600;
+  }
+  .rtx8 {
+    margin-top: 1rem;
+    color: #3897f0;
+    font-weight: bold;
+    font-size: 20px;
+    align-items: center;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  .rtx3 {
+    margin-top: 2rem;
+    padding-bottom: 1rem;
+  }
+  
+  .rtx4 {
+    font-weight: 600;
+    word-wrap: break-word;
+    color: black;
+    font-size: 25px;
+    text-align: center;
+    letter-spacing: 1px;
+  }
+  

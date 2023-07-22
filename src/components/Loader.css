@@ -1,0 +1,89 @@
+.loader {
+    margin: 300px auto;
+    height: 100px;
+    width: 100px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    position: relative;
+    justify-content: center;
+    perspective-origin: 60px 60px;
+    transform-origin: 60px 60px;
+    border: 0px solid rgb(0, 0, 0);
+    flex: 0 0 auto;
+    flex-flow: column nowrap;
+  
+    &:after,
+    &:before {
+      height: 100px;
+      width: 100px;
+  
+      border-radius: 50%;
+      border-style: solid;
+      border-width: 2px;
+      box-sizing: border-box;
+      content: "";
+      left: 0;
+      position: absolute;
+      top: 0;
+    }
+    &:after {
+      -webkit-animation: rotate 2s infinite ease;
+      animation: rotate 2s infinite ease;
+      border-color: #3897f0 transparent transparent;
+      -webkit-transform-origin: 50%;
+      transform-origin: 50%;
+      border-width: 5px;
+    }
+    &:before {
+      border-color: #c7c7c7;
+      border-width: 5px;
+    }
+    a {
+      display: block;
+      font-size: 14px;
+      margin: -60px 0;
+      padding: 60px 9px;
+      position: relative;
+      text-align: center;
+      vertical-align: middle;
+      z-index: 1;
+      color: rgb(199, 199, 199);
+      text-decoration: none;
+      font: normal normal 600 normal 14px / 14px proxima-nova, "Helvetica Neue",
+        Arial, Helvetica, sans-serif;
+    }
+  }
+  .load {
+    color: black;
+    text-decoration: none;
+    font-size: large;
+    font-weight: 700;
+    opacity: 0.7;
+  }
+  @-webkit-keyframes rotate {
+    0% {
+      -webkit-transform: rotate(0deg);
+      transform: rotate(0deg);
+      animation-timing-function: linear;
+    }
+    to {
+      -webkit-transform: rotate(360deg);
+      transform: rotate(360deg);
+      animation-timing-function: linear;
+    }
+  }
+  
+  @keyframes rotate {
+    0% {
+      -webkit-transform: rotate(0deg);
+      transform: rotate(0deg);
+      animation-timing-function: linear;
+    }
+    to {
+      -webkit-transform: rotate(360deg);
+      transform: rotate(360deg);
+      animation-timing-function: linear;
+    }
+  }
+  

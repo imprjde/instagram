@@ -1,0 +1,225 @@
+* {
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  #wrapper {
+    margin-top: 10rem;
+    width: fit-content;
+    height: 50%;
+    overflow: hidden;
+    border: 0px solid #000;
+    margin: 50px auto;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow-x: hidden;
+  }
+  
+  .main-content {
+    width: 250px;
+    height: 40%;
+    margin: 10px auto;
+    background-color: #fff;
+    padding: 40px 50px;
+  }
+  
+  .header {
+    border: 0px solid #000;
+    margin-bottom: 5px;
+  }
+  
+  .header img {
+    height: 50px;
+    width: 175px;
+    margin: auto;
+    left: 40px;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .input-1 {
+    width: 100%;
+    height: 2.5rem;
+    padding: 8px 12px;
+    border: 1px solid #dbdbdb;
+    box-sizing: border-box;
+    border-radius: 3px;
+    color: #606770;
+    background-color: rgb(250, 250, 250);
+    font-style: normal;
+    font-weight: normal;
+    outline: none;
+  }
+  
+  .input-2 {
+    width: 100%;
+    margin-bottom: 5px;
+    padding: 8px 12px;
+    border: 1px solid #dbdbdb;
+    box-sizing: border-box;
+    border-radius: 3px;
+    margin-top: 7px;
+    height: 2.5rem;
+    color: #606770;
+    background-color: rgb(250, 250, 250);
+    font-style: normal;
+    font-weight: normal;
+    outline: none;
+  }
+  
+  .overlap-text {
+    position: relative;
+  }
+  .forgot {
+    color: #3897f0;
+    margin-bottom: 1rem;
+    font-size: 14px;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 0.5rem;
+    line-height: 18px;
+    font-weight: 500;
+    font-size: medium;
+    text-decoration: none;
+  }
+  
+  .overlap-text a {
+    position: absolute;
+    top: 8px;
+    right: 10px;
+    color: #003569;
+    font-size: 14px;
+    text-decoration: none;
+    /* font-family: "Overpass Mono", monospace; */
+    letter-spacing: -1px;
+  }
+  
+  .btn {
+    width: 100%;
+    background-color: #3897f0;
+    border: 1px solid #3897f0;
+    padding: 5px 12px;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 10px;
+    margin-top: 1rem;
+    padding-top: 0.7rem;
+    padding-bottom: 0.7rem;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .sub-content {
+    width: 250px;
+    height: 40%;
+    margin: 10px auto;
+    padding: 20px 50px;
+    background-color: #fff;
+    font-weight: 400;
+    font-size: 14px;
+  }
+  
+  .s-part {
+    text-align: center;
+    word-spacing: -3px;
+    letter-spacing: -2px;
+    font-weight: normal;
+    color: #606770;
+    font-style: inherit;
+  }
+  
+  .s-part a {
+    text-decoration: none;
+    cursor: pointer;
+    color: #3897f0;
+    word-spacing: -3px;
+    letter-spacing: -2px;
+    font-weight: normal;
+  }
+  
+  .l-part {
+    margin-top: 3rem;
+  }
+  
+  .dnt {
+    font-weight: 500;
+    font-size: 14;
+    color: #606770;
+  }
+  
+  .sppn {
+    color: #3897f0;
+    text-decoration: none;
+  }
+  .mt {
+    bottom: 0;
+    margin: auto;
+    margin-top: 8rem;
+  }
+  .metaLogo {
+    margin-top: 3rem;
+    width: 6rem;
+  }
+  
+  .facebook {
+    display: flex;
+    margin-top: 3rem;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+      Arial, sans-serif;
+    font-weight: 900;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  
+  .btlkn {
+    background-color: #3897f0;
+    border: 1px solid #3897f0; /* Facebook's primary color */
+    color: white;
+    /* padding: 10px 20px; */
+    padding-left: 15px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  .fbLogo {
+    width: 30px; /* Adjust the size as needed */
+    height: 30px;
+    margin-left: -10px;
+    margin-right: 8px; /* Add spacing between the logo and the text */
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+      Arial, sans-serif;
+    font-weight: 900;
+    text-decoration: none;
+    clip-path: inset(5.5px 5.5px 5.5px 5.5px);
+  }
+  
+  .overlap-text {
+    position: relative;
+  }
+  
+  .show-hide-button {
+    color: grey;
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    border: none;
+    background: transparent;
+    cursor: pointer;
+  }
+  
