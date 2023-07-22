@@ -12,7 +12,7 @@ const Home = () => {
   return (
     <div>
       {showModal && <Modal />}
-      <img src="/Images/IGHome.jpg" className="image" alt="" />
+      <img src="/Images/IgHome.jpg" className="image" alt="" />
     </div>
   );
 };
